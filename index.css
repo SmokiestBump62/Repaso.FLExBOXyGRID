@@ -1,0 +1,132 @@
+/*Encabezado página*/
+
+header{
+    background-color: antiquewhite;
+    margin-bottom: 16px;
+}
+
+.img-cabeza{
+    width: 10%;
+    border: 4px solid black;
+    border-radius: 32px;
+    margin-right: 40%;
+}
+
+.naked{
+    margin-right: 2%;
+    float: right;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.naked1{
+    font-style: normal;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 4px;
+}
+
+.naked2{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+/*Cuerpo página*/
+
+body{
+    background-color: brown;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+.grid-layout{
+    height: 650px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 30% 30%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 1px solid black;
+    justify-content: stretch;
+}
+
+.caja{
+    border: 1px solid black;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 150px;
+}
+
+.texto2{
+    color: beige;
+}
+
+.caja1{
+    background-image: url(./icon7.jpg);
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: blue; 
+}
+
+.caja2{
+    background-image: url(./icon.jpg);
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 1;
+    background-color: blue; 
+}
+
+.caja3{
+    background-image: url(./icon3.jpg);
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 3;
+    background-color: blue;
+}
+
+.caja4{
+    background-image: url(./Icon4.jpg);
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 3;
+    background-color: blue;
+}
+
+.caja5{
+    background-image: url(./icon6.jpg);
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: blue;
+}
+
+.caja6{
+    background-image: url(./Icon2.jpg);
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: blue;
+}
+
+/*Pie página*/
+
+footer{
+    margin-top: 16px;
+    background-color: antiquewhite;
+}
+
+.logo-pie{
+    margin: 12px 12px;
+    width: 10%;
+    border: 4px solid black;
+    border-radius: 32px;
+}
+
+
